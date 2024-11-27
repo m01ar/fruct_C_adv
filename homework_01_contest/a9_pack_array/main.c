@@ -24,7 +24,7 @@ void array2struct(int array[], struct pack_array *pack_array)
     else
       pack_array->count0++;
   }
-}
+} // array2struct
 
 int main()
 {
@@ -56,4 +56,4 @@ int main()
     pa.array, pa.count0, pa.count1);
 
   return 0;
-}
+} // main
