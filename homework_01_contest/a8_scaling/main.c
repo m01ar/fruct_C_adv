@@ -16,7 +16,7 @@ void load_pan(ScalePan *pan, signed long unit)
 {
   pan->count++;
   pan->weight += unit;
-}
+} // load_pan
 
 /// Подсчитать суммарное количество гирек, необходимых для взвешивания груза
 /// n - масса взвешиваемого груза, г
@@ -69,7 +69,7 @@ int weights(signed long n)
   //   right_pan.weight, right_pan.count);
     
   return right_pan.count + left_pan.count;
-}
+} // weights
 
 int main(void)
 {
