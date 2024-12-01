@@ -1,0 +1,5 @@
+Доработайте функционал игры змейка. Реализуйте в игре ситуацию, когда змея врезается сама в себя.
+Выход за границы экрана
+*Переписать timeout через clock
+
+https://github.com/Sudar1977/MIPI_AdvancedC/blob/main/Lect3/snake_seminar_2.c 
